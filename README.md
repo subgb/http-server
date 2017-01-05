@@ -52,7 +52,7 @@ This will install `http-server` globally so that it may be run from the command 
 
 `-o` Open browser window after starting the server
 
-`-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to '3600'). To disable caching, use -c-1.
+`-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds (defaults to '3600'). To disable caching, use -c-1. [To force the browser to make a request every time](https://github.com/indexzero/http-server/issues/143), use **-c no-store**.
 
 `-U` or `--utc` Use UTC time format in log messages.
 
